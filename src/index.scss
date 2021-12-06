@@ -1,0 +1,26 @@
+:root {
+    --grey: #212121;
+    --green: #1EFD92;
+}
+
+.container {
+    max-width: 1290px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+* {
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--grey);
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0 16px;
+    }
+}

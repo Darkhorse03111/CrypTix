@@ -1,0 +1,24 @@
+.div {
+    display: flex;
+    padding-bottom: 50px;
+
+    .text {
+        max-width: 621px;
+        margin-top: 81px;
+        margin-right: 92px;
+    }
+}
+
+.cards {
+    margin-top: 62px;
+}
+
+@media (max-width: 768px) {
+    .div {
+        flex-direction: column;
+
+        .text {
+            margin: 40px auto;
+        }
+    }
+}
